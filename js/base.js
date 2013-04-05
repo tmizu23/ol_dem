@@ -1,4 +1,4 @@
-OpenLayers.ProxyHost = "proxy.cgi?url="; // キャッシュのときに必要
+OpenLayers.ProxyHost = "proxy.cgi?url="; // CORSの時に必要
 cjp_layer = new webtis.Layer.BaseMap("電子国土");
 cjp_layer.updateAttribution = function () {
     this.attribution = "<img src='js/img/cjpicon.png'/>"
