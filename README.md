@@ -4,7 +4,7 @@ ol_dem
 
 動作確認
 ------
-http://www.ecoris.co.jp/map/ol_dem/map.html
+http://www.ecoris.co.jp/map/ol_dem/map.html  
 標高タイルが表示されるのは、今のところデータ提供されているレベル14のみです。
 
 設置
@@ -14,7 +14,7 @@ ol_demフォルダをwebサーバーに置いた後に、proxy.cgiに実行権�
 
 説明
 ------
-以下のクラスを追加しました。UTFGrid.jsを流用したものなので、使い方はだいたい同じです。
+以下のクラスを追加しました。UTFGrid.jsを流用したものなので、使い方はだいたい同じです。  
 - otm/Control/DEM.js  
 - otm/Tile/DEM.js
 
