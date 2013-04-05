@@ -1,0 +1,53 @@
+
+html, body, #map {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+#tooltip {
+  position: absolute;
+  border: 1px solid #ccc;
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;    
+  background: #fff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.1) 0px 1px 3px;
+  -moz-box-shadow: rgba(0,0,0,0.1) 0px 1px 3px;
+  -webkit-box-shadow: rgba(0,0,0,0.1) 0px 1px 3px;
+  padding: 4px 7px 7px 7px;
+  left: 50px;
+  top: 10px;
+  max-width: 300px;
+  display: none;
+  z-index: 1000;
+}
+
+#tooltip strong {
+  line-height: 20px;
+}
+
+.olControlLayerSwitcher { 
+    width: 13em !important;
+    top: 0px !important;
+    right: 0 !important;
+}
+.olControlLayerSwitcher .layersDiv { background-color: #333 !important }
+.olControlLayerSwitcher .maximizeDiv,
+.olControlLayerSwitcher .minimizeDiv {
+    width: 22px !important;
+    height: 22px !important;
+//    top: -23px !important;
+//    right: 0 !important;
+    cursor: pointer !important;
+}
+.olImageLoadError { display: none !important }
+.olControlAttribution {
+    		position : absolute;
+    		font-size : 12px;
+    		bottom : 0 !important;
+    		right : 2px !important;
+}
+ 
